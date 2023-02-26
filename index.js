@@ -32,7 +32,9 @@ app.get("/price/:scripName",async (req,res)=>{
     price : price})
     
 })
-
+app.get("/",(req,res)=>{
+    res.send("Welcome to this API")
+})
 
 app.listen(80,()=>{
     console.log("server started!")
