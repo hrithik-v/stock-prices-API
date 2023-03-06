@@ -36,7 +36,7 @@ app.get("/",(req,res)=>{
     res.send("Welcome to this API")
 })
 
-app.listen(process.env.PORT || 80,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server started!")
 })
 
